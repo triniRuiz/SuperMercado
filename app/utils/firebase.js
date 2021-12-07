@@ -1,12 +1,13 @@
 import * as firebase from "firebase/app";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyC4-UnOc0KLWxq3CjR8kWWwlqgwyo4v0pY",
-  authDomain: "supper-6ff67.firebaseapp.com",
-  projectId: "supper-6ff67",
-  storageBucket: "supper-6ff67.appspot.com",
-  messagingSenderId: "256969806368",
-  appId: "1:256969806368:web:6af00f1602499556802245"
+  apiKey: "AIzaSyCSBcm2Yb3EvozS_sY5ceVaDzQu5s_kqzA",
+  authDomain: "super-gestiion.firebaseapp.com",
+  databaseURL: "https://super-gestiion-default-rtdb.firebaseio.com",
+  projectId: "super-gestiion",
+  storageBucket: "super-gestiion.appspot.com",
+  messagingSenderId: "224688301572",
+  appId: "1:224688301572:web:bb3aca0d5cb6062337b751"
 };
 
 export const firebaseApp = firebase.initializeApp(firebaseConfig);
