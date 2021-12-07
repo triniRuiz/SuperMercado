@@ -1,12 +1,14 @@
 import React from "react";
 import { useEffect, useState } from 'react';
-import {View, Text} from "react-native";
+import { Text} from "react-native";
 import { usuarios_todos } from "../scripts/users/users";
+import { StyleSheet, View } from 'react-native';
+import { DataTable } from 'react-native-paper';
 
 export default function Usuarios(){
     const [users, setUser] = useState([]);
     const [reloadUsers, setReloadUsers] = useState(false)
-
+    const tableHead = ['Nombre', 'Departamento', 'Correo', 'Días', 'Laborales'];
     useEffect(() => {
         usuarios_todos().then(arreglo => {
           setUser(arreglo);
@@ -24,7 +26,13 @@ export default function Usuarios(){
     return(
         <View>
             <Text>Crear usuario nuevo</Text>
-            <Text>Crear usuario nuevo</Text>
+            <DataTable>
+                <DataTable.Header>
+                    <DataTable.Title>Name</DataTable.Title>
+                    <DataTable.Title>Email</DataTable.Title>
+                    <DataTable.Title numeric>Age</DataTable.Title>
+                </DataTable.Header>
+            </DataTable>
         </View>
     );
 }
