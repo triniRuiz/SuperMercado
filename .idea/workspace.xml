@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23ac0e8f-7c66-49d4-a0f7-0cd50fbf22bb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/navigations/Navegacion.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/navigations/Navegacion.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/screens/CrearDep.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/screens/CrearDep.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/screens/Cuenta.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/screens/Cuenta.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/screens/Departamentos.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/screens/Departamentos.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/screens/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/screens/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/screens/Usuarios.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/screens/Usuarios.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/utils/firebase.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/utils/firebase.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/screens/Login.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
